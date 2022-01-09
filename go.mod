@@ -1,10 +1,13 @@
-module github.com/wyy-go/go-cli-template
+module github.com/wyy-go/wsession
 
-go 1.17
-
-require github.com/spf13/cobra v1.2.1
+go 1.16
 
 require (
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/boj/redistore v0.0.0-20180917114910-cd5dcc76aeff
+
+	github.com/gin-gonic/gin v1.7.7
+	github.com/gomodule/redigo v2.0.0+incompatible
+	github.com/gorilla/context v1.1.1
+	github.com/gorilla/sessions v1.2.0
+	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b
 )
